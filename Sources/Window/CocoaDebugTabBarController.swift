@@ -14,7 +14,7 @@ class CocoaDebugTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = .brown
+        self.view.backgroundColor = .black
         
         UIApplication.shared.keyWindow?.endEditing(true)
         
